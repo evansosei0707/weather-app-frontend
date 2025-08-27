@@ -1,6 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Weather App
 
-## Getting Started
+A beautiful weather application built with Next.js that displays current weather conditions for popular cities around the world, complete with dynamic city background images.
+
+## Features
+
+- 🌤️ Real-time weather data for popular cities
+- 🏙️ Dynamic city background images from Unsplash
+- 📱 Responsive design with beautiful UI
+- 🌡️ Detailed weather information including temperature, humidity, wind speed, and more
+- 🌅 Sunrise and sunset times
+
+## Setup Instructions
+
+### 1. Install Dependencies
+
+```bash
+npm install
+```
+
+### 2. Configure Unsplash API (Optional)
+
+To enable dynamic city background images, you'll need to set up an Unsplash API key:
+
+1. Visit [Unsplash Developers](https://unsplash.com/developers)
+2. Create a free account or sign in
+3. Create a new application
+4. Copy your Access Key
+5. Create a `.env.local` file in the root directory:
+
+```bash
+cp .env.example .env.local
+```
+
+6. Add your Unsplash access key to `.env.local`:
+
+```
+NEXT_PUBLIC_UNSPLASH_ACCESS_KEY=your_actual_access_key_here
+```
+
+**Note:** The app will work without the Unsplash API key, but will use placeholder images instead of real city photos.
+
+### 3. Run the Development Server
 
 First, run the development server:
 
