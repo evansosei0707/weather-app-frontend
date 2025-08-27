@@ -50,18 +50,21 @@ interface WeatherData {
 }
 
 const POPULAR_CITIES = [
-  "New York",
   "London",
-  "Paris",
+  "New York",
   "Tokyo",
+  "Paris",
   "Sydney",
-  "Dubai",
-  "Singapore",
-  "Los Angeles",
+  "Accra",
+  "Kumasi",
+  "Kigali",
+  "Lagos",
+  "Nairobi",
+  "Cairo",
   "Berlin",
-  "Mumbai",
+  "Moscow",
+  "Cape Town",
   "Toronto",
-  "Barcelona",
 ]
 
 export default function WeatherApp() {
